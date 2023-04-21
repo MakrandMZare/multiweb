@@ -1,20 +1,3 @@
-import React from 'react';
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-
-
-const Home = () => {
-  return (
-    
-    <div>
-      <Navbar />
-        <h1>Welcome HOME METRO</h1>
-      <Footer />
-    </div>
-    
-    
-    
-  )
+export default function Home() {
+    return <h1>Home</h1>
 }
-
-export default Home;
